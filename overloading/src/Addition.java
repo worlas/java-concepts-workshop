@@ -5,6 +5,19 @@
  */
 
 public class Addition {
+    public void add(int a, int b) {
+        int result = a + b;
+        System.out.println("Result From Double Int Parameter: " + result);
+    }
 
+    public void add(int a, int b, int c) {
+        int result = a + b + c;
+        System.out.println("Result From Triple Int Parameter: " + result);
+    }
+
+    public void add(int a, int b, float c) {
+        float result = a + b + c;
+        System.out.println("Result From Double Int, Single Float Parameter: " + result);
+    }
 }
 
